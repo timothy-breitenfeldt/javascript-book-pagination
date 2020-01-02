@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Library Management System</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <script src="js/books.js"></script>
+    <script src="js/screenreader.js"></script>
+    <script src="js/pageManager.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+
+            <h1>Library Management System</h1>
+        </header>
+
+        <main>
+
+            <h2>Books</h2>
+            <table id="book-table" class=".table-bordered">
+                <thead>
+                    <th>ISBN</th> <th>Title</th> <th>Author</th>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+
+            <ul id="pagination-list" class="pagination" data-currentPageNumber="1">
+            </ul>
+        </main>
+
+        <footer>
+            <p><strong>Author: Timothy Breitenfeldt</strong></p>
+        </footer>
+    </div>
+</body>
+</html>
